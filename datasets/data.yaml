@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['-']
+
+roboflow:
+  workspace: pothole-ipd
+  project: pothole-segmentation-rle1t
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pothole-ipd/pothole-segmentation-rle1t/dataset/1
